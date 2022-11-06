@@ -23,7 +23,17 @@ MonoBehaviour:
     m_SerializedTextureGuid:
       m_GuidLow: 12422334119980339127
       m_GuidHigh: 7251804534742233033
-    m_Size: {x: 0.1, y: 0.1}
+    m_Size: {x: 1, y: 1}
     m_SpecifySize: 1
     m_Name: endavar
-    m_Texture: {fileID: 2800000, guid: d6a48fb7ff10ac64c9afe079cd95a364, type: 3}
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4947936289504084604
+      m_GuidHigh: 13210091737515831993
+    m_SerializedTextureGuid:
+      m_GuidLow: 573174772659623105
+      m_GuidHigh: 8888827158871770808
+    m_Size: {x: 3, y: 3}
+    m_SpecifySize: 1
+    m_Name: devweek
+    m_Texture: {fileID: 0}

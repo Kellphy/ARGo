@@ -29,13 +29,6 @@ public class MultiTracking : MonoBehaviour
         arTrackedImageManager.trackedImagesChanged -= OnImageChanged;
     }
 
-    //private void Update()
-    //{
-    //    var tf = transform;
-    //    tf.position = new Vector3(10, 10, 10);
-    //    ActivateTrackedObject("endavar", tf);
-    //}
-
     public void OnImageChanged(ARTrackedImagesChangedEventArgs _args)
     {
         foreach (var trackedImage in _args.updated)
@@ -58,24 +51,12 @@ public class MultiTracking : MonoBehaviour
 
             if (trackedImage.trackingState == TrackingState.Tracking)
             {
-                ImageVisible(trackedImage.referenceImage.name, trackedImage.transform);
+                objectManager.Show(trackedImage.referenceImage.name, trackedImage.transform);
             }
             else
             {
-                ImageInvisible(trackedImage.referenceImage.name);
+                objectManager.Hide(trackedImage.referenceImage.name);
             }
         }
-    }
-
-    void ImageVisible(string imageName, Transform location)
-    {
-        //DebugText.instance.Log($"V {imageName}");
-        objectManager.Show(imageName, location);
-    }
-
-    void ImageInvisible(string imageName)
-    {
-        //DebugText.instance.Log($"I {imageName}");
-        objectManager.Hide(imageName);
     }
 }

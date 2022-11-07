@@ -33,22 +33,6 @@ public class MultiTracking : MonoBehaviour
     {
         foreach (var trackedImage in _args.updated)
         {
-            //DebugText.instance.Log($"Tracking {trackedImage.referenceImage.name}");
-            //DebugText.instance.Log($"State {trackedImage.transform.position}");
-            //if (trackedImage.trackingState == TrackingState.Tracking)
-            //{
-            //    ActivateTrackedObject(trackedImage.referenceImage.name, trackedImage.transform);
-
-            //    for (int i = 0; i < _args.updated.Count; i++)
-            //    {
-            //        if (_args.updated[i].referenceImage.name != trackedImage.referenceImage.name)
-            //        {
-            //            DeactivateTrackedObject(_args.updated[i].referenceImage.name);
-            //        }
-            //    }
-            //    break;
-            //}
-
             if (trackedImage.trackingState == TrackingState.Tracking)
             {
                 objectManager.Show(trackedImage.referenceImage.name, trackedImage.transform);

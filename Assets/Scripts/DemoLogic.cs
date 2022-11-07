@@ -25,16 +25,20 @@ public class DemoLogic : MonoBehaviour
     private void OnTrackingEnter(object source, TrackInfoEventArgs e)
     {
         DebugText.instance.Log($"EN");
+        e.TrackedObjectInfo.gameObject.SetActive(true);
     }
 
     private void OnTrackingStay(object source, TrackInfoEventArgs e)
     {
-        //DebugText.instance.Log($"ST");
-        //Freeze rotation on 2 axis on each frame
+        ////DebugText.instance.Log($"ST");
+
+        //Freeze Rotation on each frame
+        //e.TrackedObjectInfo.gameObject.transform.rotation = Quaternion.identity;
+
+        ////Freeze rotation on 2 axis on each frame
         Quaternion q = e.Location.transform.rotation;
         q.eulerAngles = new Vector3(0.0f, 180.0f + e.Location.transform.rotation.eulerAngles.y, 0.0f);
         e.TrackedObjectInfo.gameObject.transform.rotation = q;
-        e.TrackedObjectInfo.gameObject.SetActive(true);
     }
 
     private void OnTrackingFirst(object source, TrackInfoEventArgs e)

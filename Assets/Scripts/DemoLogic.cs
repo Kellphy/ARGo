@@ -1,11 +1,10 @@
-using System;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 using static ObjectManager;
 
 public class DemoLogic : MonoBehaviour
 {
-    [Range(0.1f, 10.0f)] public float globalScale;
     private List<TrackedObjectInfo> trackedObjects;
     private void Awake()
     {
@@ -19,37 +18,53 @@ public class DemoLogic : MonoBehaviour
     private void OnTrackingListUpdated(object source, TrackListInfoEventArgs e)
     {
         trackedObjects = e.TrackedObjectInfoList;
-        DebugText.instance.Log($"LIST: {trackedObjects.Count}");
+        DebugText.Instance.Log($"Object List Updated to: {trackedObjects.Count}");
     }
 
     private void OnTrackingEnter(object source, TrackInfoEventArgs e)
     {
-        DebugText.instance.Log($"EN");
+        DebugText.Instance.Log($"Found: {e.TrackedObjectInfo.trackedObject.ImageName}");
         e.TrackedObjectInfo.gameObject.SetActive(true);
+
+        e.TrackedObjectInfo.transform.localScale = Vector3.one * GlobalSettings.Instance.GetGlobalScale();
+
+        if (!GlobalSettings.Instance.IsPermanentDetection())
+        {
+            var enabledTrackedObjects = trackedObjects.Where(t => t.gameObject.activeSelf && t != e.TrackedObjectInfo);
+            foreach(var enabledTrackedObject in enabledTrackedObjects)
+            {
+                enabledTrackedObject.gameObject.SetActive(false);
+            }
+        }
     }
 
     private void OnTrackingStay(object source, TrackInfoEventArgs e)
     {
-        ////DebugText.instance.Log($"ST");
+        //DebugText.instance.Log($"Detecting {e.TrackedObjectInfo.trackedObject.ImageName}");
 
-        //Freeze Rotation on each frame
+        //Freeze Rotation on each frame example
         //e.TrackedObjectInfo.gameObject.transform.rotation = Quaternion.identity;
 
-        ////Freeze rotation on 2 axis on each frame
-        Quaternion q = e.Location.transform.rotation;
-        q.eulerAngles = new Vector3(0.0f, 180.0f + e.Location.transform.rotation.eulerAngles.y, 0.0f);
-        e.TrackedObjectInfo.gameObject.transform.rotation = q;
+        if (GlobalSettings.Instance.IsTransformFrozen())
+        {
+            //Freeze rotation on 2 axis on each frame
+            Quaternion q = e.Location.transform.rotation;
+            q.eulerAngles = new Vector3(0.0f, 180.0f + e.Location.transform.rotation.eulerAngles.y, 0.0f);
+            e.TrackedObjectInfo.gameObject.transform.rotation = q;
+        }
     }
 
     private void OnTrackingFirst(object source, TrackInfoEventArgs e)
     {
-        DebugText.instance.Log($"FR");
-        e.TrackedObjectInfo.transform.localScale = Vector3.one * globalScale;
+        DebugText.Instance.Log($"First Time: {e.TrackedObjectInfo.trackedObject.ImageName}");
     }
 
     private void OnTrackingExit(object source, TrackInfoEventArgs e)
     {
-        DebugText.instance.Log($"EX");
-        e.TrackedObjectInfo.gameObject.SetActive(false);
+        DebugText.Instance.Log($"Lost: {e.TrackedObjectInfo.trackedObject.ImageName}");
+        if (GlobalSettings.Instance.IsPermanentDetection())
+        {
+            e.TrackedObjectInfo.gameObject.SetActive(false);
+        }
     }
 }

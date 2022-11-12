@@ -49,7 +49,7 @@ public class ObjectManager : MonoBehaviour
                 }
 
                 TrackingFirst(this, new TrackInfoEventArgs(instantiatedInfo, location));
-                TrackingEnter(this, new TrackInfoEventArgs(trackedObjectInfo, location));
+                TrackingEnter(this, new TrackInfoEventArgs(instantiatedInfo, location));
             }
         }
     }

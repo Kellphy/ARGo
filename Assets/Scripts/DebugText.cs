@@ -4,21 +4,22 @@ using UnityEngine;
 
 public class DebugText : MonoBehaviour
 {
-    public static DebugText instance;
+    private int maxLogCount = 1000;
+    public TextMeshProUGUI debugText;
+    string keptText = string.Empty;
+    public static DebugText Instance;
+
     private void Awake()
     {
-        instance = this;
+        Instance = this;
     }
-    public TextMeshProUGUI debugText;
-
-    string keptText = string.Empty;
 
     public void Log(string text)
     {
-        keptText = $"{DateTime.Now.Second} {text}\n{keptText}";
-        if (keptText.Length > 1000)
+        keptText = $"[{DateTime.Now.Second}] {text}\n{keptText}";
+        if (keptText.Length > maxLogCount)
         {
-            keptText = keptText[..1000];
+            keptText = keptText[..maxLogCount];
         }
         if (debugText.gameObject.activeSelf)
         {

@@ -17,7 +17,7 @@ public class MultiTracking : MonoBehaviour
 
     private void Start()
     {
-        DebugText.instance.Log($"Started");
+        DebugText.Instance.Log($"Started");
     }
 
     private void OnEnable()

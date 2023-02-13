@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 11f328e1120816b4a8297b3b3b80c0da, type: 3}
+  m_Name: DB
+  m_EditorClassIdentifier: 
+  CommunityName: Database Testing
+  CommunityLogo: {fileID: 21300000, guid: 7b258e4d4d9651142b978fd3bea9f6d7, type: 3}
+  CommunityDescription: 'Database Testing Community has a Core Team consiting of
+    9 collegues, juniors and seniors. Our main activity is to organize and provide
+    support to our collegues, in the Database world.  Core Team Members: Arina Draghici,
+    Raul Voica, Adrian Costea, Irina Brehui, Cristiana Brinzoi, Adrian Rusu, Bianca
+    Ilie, Simona Iacob.'
+  CommunityHighlights: "  - SQL Trainings\r\n  - Workshops\r\n  - Database Dojo\r\n 
+    - Newsletter\r\n  - Database training path\r\n  - Support in configuring databases"
+  CommunityLeadName: Daniel Stoica
+  CommunityLeadPicture: {fileID: 21300000, guid: d80fe54fb08092246bfa9a685bd9cb08,
+    type: 3}
+  CommunityLeadInfo: Daniel joined Endava in 2018 through the Fresh Grads program.
+    He is enthusiastic and wanted to express his personality in the Database community,
+    of which he became the leader in 2020. During this time he managed to organize
+    a very relaible Core Team that helps with organizing all the SQL related activities.

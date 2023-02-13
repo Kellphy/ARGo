@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 11f328e1120816b4a8297b3b3b80c0da, type: 3}
+  m_Name: JAVA
+  m_EditorClassIdentifier: 
+  CommunityName: Java
+  CommunityLogo: {fileID: 21300000, guid: fec97a6f845584f4bbb8016f5c92ce48, type: 3}
+  CommunityDescription: The community promotes the  drive to share knowledge and
+    grow together. Do you need some advice on a certain technology? Do you need some
+    support for taking a Java certification? Do you want to grow your presentation
+    and technical skills? The community offers opportunities for you in these areas
+    and many more. Reach out to us and let's grow together!
+  CommunityHighlights: "  - Trainings\r\n  - 'Presentations '\r\n  - Certification
+    study groups\r\n  - Mentoring\r\n  - Teaching at university\r\n  - Graduates
+    programme"
+  CommunityLeadName: Daniela Spilca
+  CommunityLeadPicture: {fileID: 21300000, guid: 5d5ac80d4c1c44a4283090ac0126882c,
+    type: 3}
+  CommunityLeadInfo: She has been with Endava for 3 years.  Having a passion for
+    education, she delivered  Java and SQL trainings to a wide variety of audience
+    for the past 8 years. She believes the community is the perfect place where you
+    can grow yourself when you grow others.

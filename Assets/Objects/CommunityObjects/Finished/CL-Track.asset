@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aaa180b4dec9cd7468c5ac7fe3fbde89, type: 3}
+  m_Name: CL-Track
+  m_EditorClassIdentifier: 
+  ImageName: Cloud
+  Prefab: {fileID: 8162417922139590278, guid: a47ebce494de1724ab37ad5e884b5a10, type: 3}

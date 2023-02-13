@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 11f328e1120816b4a8297b3b3b80c0da, type: 3}
+  m_Name: ST
+  m_EditorClassIdentifier: 
+  CommunityName: Security Testing
+  CommunityLogo: {fileID: 21300000, guid: 610e2297a4cd62f4ca98ba0189155069, type: 3}
+  CommunityDescription: Our team consists of 8 members passionate about security
+    that understand how important security is for a project. Therefore we are always
+    looking forward to sharing this mindset with other colleagues. A thriving community
+    can serve to teach, mentor, and energize new members on the benefits of having
+    a security mindset. Regardless of your background or the discipline in which
+    you perform, you can find a set of training, workshops, and other initiatives
+    that can help you grow your knowledge and skills.
+  CommunityHighlights: "  - Security Incubator\r\n  - Regional Trainings\r\n  - Certifications
+    (CEH, eJPT, et. al.)\r\n  - Workshops\r\n  - Newsletter\r\n  - Security Corner"
+  CommunityLeadName: Alexandru Bahnean
+  CommunityLeadPicture: {fileID: 21300000, guid: 8acc999ac3d3fe04fb089c3f33962635,
+    type: 3}
+  CommunityLeadInfo: Alex has been part of the testing community core team for two
+    years, during which he has taken part in several activities in the testing discipline.
+    He also participated in the Security Incubator, a training that gave him a starting
+    point for advancing in the security testing field. Currently, he divides his
+    time into meeting the project requirements that he is part of and developing
+    his security knowledge and skills. At the same time, Alex also collaborates with
+    the core team members to create initiatives designed to bring together security-minded
+    individuals so that they can share knowledge and experiences.

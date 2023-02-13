@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 11f328e1120816b4a8297b3b3b80c0da, type: 3}
+  m_Name: NET
+  m_EditorClassIdentifier: 
+  CommunityName: .NET
+  CommunityLogo: {fileID: 21300000, guid: e1bbeb37b1152344fbdf3d8d6ddbde4d, type: 3}
+  CommunityDescription: The community consists of around 73 members, has organized
+    4 gradute/school of/mentorship programmes, has 8 main interviewers plus more
+    eager to help and has 5 trainers/mentors that are eager to help.
+  CommunityHighlights: "  - Microsoft certifications\r\n  - Training\r\n  - Presentations\r\n 
+    - Mentorship"
+  CommunityLeadName: Diana Constantinescu
+  CommunityLeadPicture: {fileID: 21300000, guid: a52db5e2a03267446ba9c7903a2ead41,
+    type: 3}
+  CommunityLeadInfo: Diana joined Endava on 9th of November 2015 and has been the
+    community lead since february 2021. She has worked on various projects in Endava
+    on multiple business verticals and is also a Career Coach, Interviewer and Trainer.
+    Her main hobby consists of hunting down people to get more involved in community
+    aspects.

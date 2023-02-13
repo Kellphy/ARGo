@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 11f328e1120816b4a8297b3b3b80c0da, type: 3}
+  m_Name: AUT
+  m_EditorClassIdentifier: 
+  CommunityName: Automation Testing
+  CommunityLogo: {fileID: 21300000, guid: 7982ef90f6a29814bb9a90db738d25e1, type: 3}
+  CommunityDescription: 'The Automation Testing Community aims to bring together
+    people who share the same norms,  beliefs, and / or values. We like to believe
+    that every person who joins the community  can bring a touch of joy, happiness,
+    but especially can be actively involved in t he good development and growth of
+    the community. Therefore, for any idea, course or project in which we can help
+    you, do not hesitate to contact us! We are with you and we will always be with
+    you! Our Core Team members: Mihai David, Alexandru Nica, Cristiana  Brinzoi,
+    Adrian Costea, Daniela Ileana, Bogdan Nitica, Ion Diaconu, Ionut Lacatusu,  Silvana
+    Mindreanu, Oana Zlotea, Adrian Ieremiea'
+  CommunityHighlights: "  - Java Automation Mentorship\r\n  - Java/C# Training Path\r\n 
+    - Newsletter\r\n  - Trainings\r\n  - Automation Dojo"
+  CommunityLeadName: Andreea-Cristiana Brinzoi
+  CommunityLeadPicture: {fileID: 21300000, guid: 5f795c986aed7f241a7ffcf40e0161b5,
+    type: 3}
+  CommunityLeadInfo: Cristiana joined Endava in 2019 and she was first a Core Team
+    Member, then was the organizer lead and now is the Community Lead. She enjoys
+    working with people and loves challenges. Cristiana likes to listen and analyze,
+    being also a responsible and empathetic person. She is a detailed-oriented, responsible,
+    and committed Tester, customer focused, with a get-it-done, on-time and high-quality
+    product spirit.

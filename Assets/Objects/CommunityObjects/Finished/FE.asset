@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 11f328e1120816b4a8297b3b3b80c0da, type: 3}
+  m_Name: FE
+  m_EditorClassIdentifier: 
+  CommunityName: Frontend
+  CommunityLogo: {fileID: 21300000, guid: 2fbca1372be1a0a46beaab01b8ab9441, type: 3}
+  CommunityDescription: The frontend community maintains its dedication to empower
+    colleagues with knowledge regarding frontend and web practices. Do you have any
+    doubts on when and how to apply hooks in react? Or do you find NgRX difficult
+    and want to learn more about it?  We can help you with our knowledge inside the
+    community, share training materials, courses and pair programming if needed.
+    We're open to any of you, frontend developers. Stay tuned for more in the future!
+  CommunityHighlights: "  - Knowledge sharing\r\n  - Global learning path\r\n  -
+    Application creation\r\n  - Mentoring\r\n  - Regional Trainings\r\n  - Standardizing
+    Web Practices\r\n  - Researching whatever new & shiny"
+  CommunityLeadName: 'Liviu Bobocu
+
+    Cristi Hosu'
+  CommunityLeadPicture: {fileID: 21300000, guid: 400ef3c8174eb164bb49b6603b180862,
+    type: 3}
+  CommunityLeadInfo: Both Liviu and Cristi have experience in organising the frontend
+    community for quite some time. If it''s anything related to organizing a training,
+    an event, or just help colleagues with frontend knowledge, they are your goto
+    people and will guide you with community insights.

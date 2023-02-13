@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 11f328e1120816b4a8297b3b3b80c0da, type: 3}
+  m_Name: GnG
+  m_EditorClassIdentifier: 
+  CommunityName: Games and Graphics
+  CommunityLogo: {fileID: 21300000, guid: 43cb6d8ee21dc1e45a6fc87dbd2e8190, type: 3}
+  CommunityDescription: The Graphics and Game Development Community is under the
+    umbrella of the Innovative Community, where we have monthly meetings with contests,
+    praising, show offs of the monthly topic. We gladly invite you to participate,
+    learn, take charge, and share your abilities in the game development area.
+  CommunityHighlights: "  - THIS!!!\r\n  - DevWeek Treasure Hunt\r\n  - Virtual Office\r\n 
+    - The Office MiniRacer\r\n  - Unity\r\n  - Monthly challenges\r\n  - Blender"
+  CommunityLeadName: Iliuta Stoica
+  CommunityLeadPicture: {fileID: 21300000, guid: 23d0e70a6f1347f40815766041b80f9d,
+    type: 3}
+  CommunityLeadInfo: 'Community lead of the new Graphics & gaming Community, is a
+    frontend developer for more than 10 years, in Endava more than 2 years, working
+    on all the cool projects with Cristian Hosu on: Virtual Office, Treasure Hunt
+    2020 and 2021 for devWeek, Racing Game for Open Days'
+  Prefab: {fileID: 0}

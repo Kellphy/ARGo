@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 11f328e1120816b4a8297b3b3b80c0da, type: 3}
+  m_Name: PT
+  m_EditorClassIdentifier: 
+  CommunityName: Performance Testing
+  CommunityLogo: {fileID: 21300000, guid: d4b29b600dbb75747893366254c80622, type: 3}
+  CommunityDescription: We're a group of around 15 people (half junior, half senior)
+    actively doing performance testing as their main role, plus a number of other
+    colleagues wanting to learn more about this area. We're trying to keep the group
+    active and together as a community by having recurrent meetings and communicate
+    with each other often, and at the same time grow by recruiting and teaching more
+    juniour colleagues continuously.
+  CommunityHighlights: "  - Performance testing incubator\r\n  - Newsletter\r\n 
+    - ISTQB"
+  CommunityLeadName: Mihai Tache
+  CommunityLeadPicture: {fileID: 21300000, guid: e48abf1a2e65c5e4d842c533c4873ad0,
+    type: 3}
+  CommunityLeadInfo: Has been with Endava for 6 years now, working on 5 projects.
+    He bagan his performance testing career 9 years ago, when ""someone in the team
+    had to pick up performance and security testing skills"". Turned out it wasn't
+    as straight forward with the security testing, but performance testing was manageable
+    for a novice.  Now he splits his time between doing performance testing on various
+    projects, career coaching, leading the performance testing community in BHD,
+    and participating in pre sales activities occasionally.

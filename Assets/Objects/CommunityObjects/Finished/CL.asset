@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 11f328e1120816b4a8297b3b3b80c0da, type: 3}
+  m_Name: CL
+  m_EditorClassIdentifier: 
+  CommunityName: DevOps and Cloud
+  CommunityLogo: {fileID: 21300000, guid: f2fa2604444223d4d83b78510f354e1f, type: 3}
+  CommunityDescription: 'The Devops and Cloud communities have been working hand
+    in hand for a good period of time while lately we have joined fully to deliver
+    a more comprehensive support for it''''s members and everyone else which requires
+    information, knowledge or support.  Both DevOps and Cloud practices are transversal
+    topics which help in software delivery: from data management, development, testing,
+    pipelines, automation, infrastructure as a code, systems and even more. We are
+    always happy to help and anyone can join the community regardless of their discipline,
+    knowledge or experience.'
+  CommunityHighlights: "  - DevOps & Cloud presentations\r\n  - Study Groups\r\n 
+    - Knowledge Sharing\r\n  - Learning Paths"
+  CommunityLeadName: 'George Constantin
+
+    Alina Alexandru'
+  CommunityLeadPicture: {fileID: 21300000, guid: 13acab2183a876b4283480fc6554e18e,
+    type: 3}
+  CommunityLeadInfo: Alina and George are involved in organising the community helping
+    to deliver trainings, pass it ons, community events and helping colleagues with
+    DecOps and Cloud knowledge or finding someone which may help. Bound by our passion
+    for constant improvement, expanding our knowledge and helping others. George
+    is being very passionate about development, cloud and data; having knowledge
+    and experience on a large technology stack and on multiple cloud providers (
+    Azure, GCP, AWS). Alina has large experience working with Oracle technologies
+    and brings the community together to share knowledge and expand our mindsets.

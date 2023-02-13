@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 11f328e1120816b4a8297b3b3b80c0da, type: 3}
+  m_Name: MT
+  m_EditorClassIdentifier: 
+  CommunityName: Mobile Testing
+  CommunityLogo: {fileID: 21300000, guid: fcbf3bdc32287554fb4b78ba18133a90, type: 3}
+  CommunityDescription: 'Our Core team consists of 6 members passionate about mobile
+    devices and new technologies. We are providing workshop/trainings from the beginning
+    level to advanced and we are glad to support Mobile projects when they need any
+    help. Core Team Members: Andreea Costea, Roxana Stoica, Teodora Burlacu, Andreea
+    Cinta-Bine, Andrei Silviu Sirghie.'
+  CommunityHighlights: "  - Trainings\r\n  - Mobile Lab\r\n  - Support for Mobile
+    projects"
+  CommunityLeadName: Roman Pavlic
+  CommunityLeadPicture: {fileID: 21300000, guid: e9d2d9485b6c90a42a2f9a891c66ba97,
+    type: 3}
+  CommunityLeadInfo: Roman joined Endava in 2013 starting his testing career in Chisinau
+    office. In 2016 he moved to Bucharest and since April 2017 he is our Mobile Community
+    Lead. He is passionate about mobile testing and likes being in touch with the
+    latest devices. During this time he managed to grow a solid core team that helps
+    him in all organisational proceses and provides workshops/trainings.

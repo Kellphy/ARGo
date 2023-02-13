@@ -1622,7 +1622,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!108 &410087040
 Light:
   m_ObjectHideFlags: 0
@@ -5834,6 +5834,22 @@ MonoBehaviour:
   - {fileID: 11400000, guid: b1f004a9ee5a32b49bf4ac437624848d, type: 2}
   - {fileID: 11400000, guid: 9b8033d01b2582649aac28e1ad3e1f63, type: 2}
   - {fileID: 11400000, guid: 170931115df34d0458d2277e5b9e8bcf, type: 2}
+  - {fileID: 11400000, guid: e4ceec57a9f892341ad1e8d17d0259e8, type: 2}
+  - {fileID: 11400000, guid: 65684864eca01bf4fbd7dfeadc8301c8, type: 2}
+  - {fileID: 11400000, guid: a1312f3a044394347ab28645bf40cdb0, type: 2}
+  - {fileID: 11400000, guid: 4b86e12a3d258c54baea733fede97a5e, type: 2}
+  - {fileID: 11400000, guid: aeeb69921591d7140a63753c6cf869ce, type: 2}
+  - {fileID: 11400000, guid: c474ddda0bc979347b71fae8291ce86a, type: 2}
+  - {fileID: 11400000, guid: b3d0dab8ab9570647b5f31b2c95b1032, type: 2}
+  - {fileID: 11400000, guid: fa93cf2e87e2f744bbca15dcf756cb82, type: 2}
+  - {fileID: 11400000, guid: 45b8a5a8c369b42479602316f47c536b, type: 2}
+  - {fileID: 11400000, guid: 0ea82e11a353cbd43bde045222eccd04, type: 2}
+  - {fileID: 11400000, guid: 8346084f6cb0682408fbbfdf4d0a30b6, type: 2}
+  - {fileID: 11400000, guid: 160acff89fd76eb4996d4800e3c43bab, type: 2}
+  - {fileID: 11400000, guid: 0155adc16c4302747b689363f0ed7e19, type: 2}
+  - {fileID: 11400000, guid: 61fc0a7d1737a5e418e6ca5ba7f210e5, type: 2}
+  - {fileID: 11400000, guid: af14b73dfbdbae94385821e396ec58e4, type: 2}
+  - {fileID: 11400000, guid: 3a16659b6aa51fe40aca40a1c9660502, type: 2}
 --- !u!114 &1687154923
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5858,7 +5874,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4dea56a9eaadd1c439095de4f9a371cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedLibrary: {fileID: 11400000, guid: 0bf93fa8ec2377748ade476b33d46a85,
+  m_SerializedLibrary: {fileID: 11400000, guid: cf353b67d35015240b4760580d438ef4,
     type: 2}
   m_MaxNumberOfMovingImages: 1
   m_TrackedImagePrefab: {fileID: 0}

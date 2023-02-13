@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 11f328e1120816b4a8297b3b3b80c0da, type: 3}
+  m_Name: TM
+  m_EditorClassIdentifier: 
+  CommunityName: Test Management
+  CommunityLogo: {fileID: 21300000, guid: b5f0dd7335f44c643a6df3cb4f591793, type: 3}
+  CommunityDescription: 'Test Management Community combines all of the testing world
+    in one place. Here you can find workshops, trainings, fun activities, reading
+    groups, certifications. We like learning and teaching in the same time. Our Core
+    team line-up: Bogdan Buritila, Adrian Stefanescu, Madalina Spulber, Hari Cilibeanu,
+    Alexandru Dumitrache, Oxana Storoj, Adina Lazar, Ileana Andrei are always ready
+    to welcome you in our community.'
+  CommunityHighlights: "  - Road to certification\r\n  - ISTQB\r\n  - Testing Week\r\n 
+    - Trainings\r\n  - Mentoring\r\n  - Newsletter"
+  CommunityLeadName: Ionela Lajea
+  CommunityLeadPicture: {fileID: 21300000, guid: 2bf5dd5dd84436645b5fe21e7338cf1b,
+    type: 3}
+  CommunityLeadInfo: Ionela joined Test Mangement first as a Core Team Member and
+    then as the Community Lead.  She is passioned about the testing world and about
+    teaching, so she found her perfect spot in Endava. Test Management Community
+    offered Ionela a lot of opportunities and she would love to share them with others.

@@ -26,8 +26,6 @@ public class DemoLogic : MonoBehaviour
         DebugText.Instance.Log($"Found: {e.TrackedObjectInfo.trackedObject.ImageName}");
         e.TrackedObjectInfo.gameObject.SetActive(true);
 
-        e.TrackedObjectInfo.transform.localScale = Vector3.one * GlobalSettings.Instance.GetGlobalScale();
-
         if (!GlobalSettings.Instance.IsPermanentDetection())
         {
             var enabledTrackedObjects = trackedObjects.Where(t => t.gameObject.activeSelf && t != e.TrackedObjectInfo);
@@ -39,13 +37,14 @@ public class DemoLogic : MonoBehaviour
     }
 
     private void OnTrackingStay(object source, TrackInfoEventArgs e)
-    {
-        //DebugText.instance.Log($"Detecting {e.TrackedObjectInfo.trackedObject.ImageName}");
+	{
+		e.TrackedObjectInfo.transform.localScale = Vector3.one * GlobalSettings.Instance.GetGlobalScale();
+		//DebugText.instance.Log($"Detecting {e.TrackedObjectInfo.trackedObject.ImageName}");
 
-        //Freeze Rotation on each frame example
-        //e.TrackedObjectInfo.gameObject.transform.rotation = Quaternion.identity;
+		//Freeze Rotation on each frame example
+		//e.TrackedObjectInfo.gameObject.transform.rotation = Quaternion.identity;
 
-        if (GlobalSettings.Instance.IsTransformFrozen())
+		if (GlobalSettings.Instance.IsTransformFrozen())
         {
             //Freeze rotation on 2 axis on each frame
             Quaternion q = e.Location.transform.rotation;
